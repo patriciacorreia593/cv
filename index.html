@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Patricia's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <!--here we are putting the cell spacing because we dont want the text right next to the picture bur this is a thing we can do with css because its a deprecated attibute-->
+    <tr>
+      <td> <img src="images/me photo.jpg" alt="Patricia's profile picture">
+        <!-- in the source i can put an url i just need to copy the image adress and paste it there, the alt is for an alternative text in case the browser can't render the image so that will tell the user whats that image was all about-->
+      </td>
+      <td>
+        <h1>Patricia Correia</h1>
+        <p><em>Currently learning <strong><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">programming</a></strong>.</em></p>
+        <p>Hello there! I'm Patricia and I'm now learning programming. I'm 25 yo and from Portugal. I want to enter this field because I want a better quality of life. I really hope this is it</p>
+      </td>
+    </tr>
+  </table>
+  <hr size="3" noshade color=blue>
+  <h3>Education</h3>
+  <ul>
+    <li>Escola Primária De Povoa de Luzianes</li> <!-- the li it is for a list item -->
+    <br>
+    <li>Escola EB23 Dr Fortunato de Almeida - Nelas
+      <ul>
+        <!-- tag for an unordered list -->
+        <li>It was a school from 5 to 9th grade</li>
+      </ul>
+    </li> <!-- it s for closing the tag of ecola eb23 -->
+    <br>
+    <li>Escola Secundária de Nelas - Nelas</li>
+    <br> <!-- Here I can use the line breaker or the paragraph, but its easier the br because it is a selfclosing tag -->
+    <li>Instituto Superior de Agronomia - Lisbon</li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <!-- i put here a border just to see and know that i can do that but those are deprecated attributtes because is the CSS thta will be doing the styling and not HTML, because like this it will look ugly-->
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2019</td>
+        <td>Intern Animal Production Engineer</td>
+      </tr>
+      <tr>
+        <td>2020-2021</td>
+        <td>Animal Production Engineer</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- I can insert here a table foot to, need to see later if she will put any description on the work and if not I need to see how I can do that-->
+  <hr>
+  <h3>Soft Skills</h3>
+  <table cellspacing="10">
+    <!-- we are putting the cell spacing here to look more composed and not everything on top of everything-->
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Empathy</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Responsible</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Team work</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Communication</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Organization</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Persistent</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!-- now this is really confusing and thats why we shoudn t use the html for styling our page-->
+  <!-- what we are doing his to put a nesting table and inside that table we create other littles tables with the thing we want and that way the final result will be 1 row with 2 table cells-->
+  <hr>
+  <h3>Hobbies</h3>
+  <ol>
+    <!--tag for an ordered list. it will be an example of how it satys without the line breaker-->
+    <li>taking walks and <a href="https://alpshiking.swisshikingvacations.com/ten-health-benefits-of-trekking/">trekking</a></li>
+    <li><a
+        href="https://scontent.fopo4-1.fna.fbcdn.net/v/t1.18169-9/548324_328762770522634_1370973887_n.jpg?_nc_cat=105&ccb=1-6&_nc_sid=19026a&_nc_eui2=AeHl-r9H1SGr2b3S7rEtf6t6UEXLkxvGBVVQRcuTG8YFVdvn-dDscBVVtTZykXQ2-YRoaIx5vPVQJ-7VmYXYMKzA&_nc_ohc=C6mwY0G-NBEAX_oMu_k&_nc_ht=scontent.fopo4-1.fna&oh=00_AT_lz1YWy_kolLg-F2xW966oaBDpoangAajX0pJ5VeEeJg&oe=6299696D">horse
+        riding</a></li>
+    <li>cooking
+      <ol type=i>
+        <!-- this type=i is for the the roman numeral but if i want to star in 4 i put start="4" -->
+        <li><a
+            href="https://scontent.fopo4-1.fna.fbcdn.net/v/t31.18172-8/178160_423358641063046_142887335_o.jpg?_nc_cat=102&ccb=1-6&_nc_sid=ba80b0&_nc_eui2=AeFq4z1_NqJzXfPWXrymjeSf5Mvg4HpVOL7ky-DgelU4vm0hyTZlv1EtEmM4Qh1zsGNiFrVrFQiyutbyzQEf_Kl8&_nc_ohc=YdpCyibS3OYAX-uJ1qQ&_nc_ht=scontent.fopo4-1.fna&oh=00_AT-ljwOFrwNYSb5vsTjK-sYxtEzA_5NiXnFypHGqMH5UlA&oe=629CBAF6">pastry</a>
+        </li>
+      </ol>
+      <ul>
+        <li>italian cuisine</li>
+      </ul>
+    </li>
+    <li>reading</li>
+  </ol>
+  <a href="contacts.html">
+    <h3><strong>Contact Me</strong></h3>
+  </a>
+</body>
+
+</html>
